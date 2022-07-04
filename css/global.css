@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+:root {
+    --main-btn-color: hsla(216, 57%, 50%, 1);
+    --main-text-color: hsla(0, 0%, 17%, 1);
+    --font-family: 'Lato', sans-serif;
+    --benefits-text-color: hsla(235, 15%, 26%, 1);
+    --main-text-box: hsla(0, 0%, 100%, 1);
+
+}
+
+.container {
+    width: 1770px;
+    margin: 0 auto;
+}
+
+p , h1 , h2 , h3, input {
+    margin: 0;
+    padding: 0;
+}
+
+section:first-child {
+    padding-top: 30px;
+}
+
+section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}

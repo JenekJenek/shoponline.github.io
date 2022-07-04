@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.header__logo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.06em;
+    color: #2D2D2D;
+}
+
+.header__logo-style {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.06em;
+    color: #3670C7;
+}
+
+.header__menu {
+    width: 151px;
+    height: 54px;
+    background: #3670C7;
+    border-radius: 10px;
+    border-style: none;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header__input-form {
+    display: flex;
+    align-items: center;
+}
+
+.header__input {
+    position: relative;
+    width: 757px;
+    height: 54px;
+    background: #EFEFEF;
+    border-radius: 30px;
+    border-style: none;
+    text-indent: 40px;
+    outline: none;
+}
+
+.header__input::placeholder {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #8F8F8F;
+}
+
+.header__input-btn {
+    position: relative;
+    width: 101px;
+    height: 54px;
+    background: #3670C7;
+    border-radius: 30px;
+    border-style: none;
+    z-index: 1;
+    right: 102px;
+    cursor: pointer;
+}
+
+.header__figure-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__figure-text {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+
+    color: #2D2D2D;
+}
+
+.header__figure-svg {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.header__svg-item {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    z-index: 1;
+    top: -34px;
+    left: 12px;
+    text-align: center;
+    margin-bottom: -14px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+    color: #3670C7;
+}
+
+.header__figure-click {
+    text-decoration: none;
+}
+
+.header__grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 1770px;
+}

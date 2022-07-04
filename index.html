@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="header__grid-container">
+                <div class="header__grid-item">
+                    <p class="header__logo">Shop<span class="header__logo-style">Online</span></p>
+                </div>
+
+                <div class="header__grid-item">
+                    <button class="header__menu">
+                        <svg width="18" height="12" viewbox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 12H6V10H0V12ZM0 0V2H18V0H0ZM0 7H12V5H0V7Z" fill="white"/>
+                            </svg>                        
+                        Меню</button>
+                </div>
+
+                <div class="header__grid-item">
+                    <label class="header__input-form" for="search">
+                        <input class="header__input" type="text" name="search" id="search" placeholder="Я ищу...">
+                        <button class="header__input-btn">
+                            <svg width="27" height="27" viewbox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.25 17H18.065L17.645 16.595C19.115 14.885 20 12.665 20 10.25C20 4.865 15.635 0.5 10.25 0.5C4.865 0.5 0.5 4.865 0.5 10.25C0.5 15.635 4.865 20 10.25 20C12.665 20 14.885 19.115 16.595 17.645L17 18.065V19.25L24.5 26.735L26.735 24.5L19.25 17ZM10.25 17C6.515 17 3.5 13.985 3.5 10.25C3.5 6.515 6.515 3.5 10.25 3.5C13.985 3.5 17 6.515 17 10.25C17 13.985 13.985 17 10.25 17Z" fill="white"/>
+                            </svg>
+                        </button>
+                    </label>
+                </div>
+
+                <div class="header__grid-item">
+                    <div class="header__figure-box">
+                        <a class="header__figure-click header__figure-box" href="#">
+                            <svg class="header__figure-svg" width="24" height="31" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 12C15.315 12 18 9.315 18 6C18 2.685 15.315 0 12 0C8.685 0 6 2.685 6 6C6 9.315 8.685 12 12 12ZM12 15C7.995 15 0 17.01 0 21V24H24V21C24 17.01 16.005 15 12 15Z" fill="#2D2D2D"/>
+                            </svg>
+                            <p class="header__figure-text">Профиль</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="header__grid-item">
+                    <div class="header__figure-box">
+                        <a class="header__figure-click header__figure-box" href="#">
+                            <svg class="header__figure-svg" width="31" height="30" viewbox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.5 24C7.85 24 6.515 25.35 6.515 27C6.515 28.65 7.85 30 9.5 30C11.15 30 12.5 28.65 12.5 27C12.5 25.35 11.15 24 9.5 24ZM0.5 0V3H3.5L8.9 14.385L6.875 18.06C6.635 18.48 6.5 18.975 6.5 19.5C6.5 21.15 7.85 22.5 9.5 22.5H27.5V19.5H10.13C9.92 19.5 9.755 19.335 9.755 19.125L9.8 18.945L11.15 16.5H22.325C23.45 16.5 24.44 15.885 24.95 14.955L30.32 5.22C30.44 5.01 30.5 4.755 30.5 4.5C30.5 3.675 29.825 3 29 3H6.815L5.405 0H0.5ZM24.5 24C22.85 24 21.515 25.35 21.515 27C21.515 28.65 22.85 30 24.5 30C26.15 30 27.5 28.65 27.5 27C27.5 25.35 26.15 24 24.5 24Z" fill="#2D2D2D"/>
+                            </svg>
+                                <p class="header__svg-item">2</p>
+                            <p class="header__figure-text">Корзина</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="header__grid-item">
+                    <div class="header__figure-box">
+                        <a class="header__figure-click header__figure-box" href="#">
+                            <svg class="header__figure-svg" width="30" height="29" viewbox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 28.025L12.825 26.045C5.1 19.04 0 14.42 0 8.75C0 4.13 3.63 0.5 8.25 0.5C10.86 0.5 13.365 1.715 15 3.635C16.635 1.715 19.14 0.5 21.75 0.5C26.37 0.5 30 4.13 30 8.75C30 14.42 24.9 19.04 17.175 26.06L15 28.025Z" fill="#2D2D2D"/>
+                            </svg>
+                                
+                            <p class="header__figure-text">Избранное</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container">
+            <div class="main__grid-box">
+
+                <div class="main__grid-item">
+                    <p class="main__text-header">-50% на все ноутбуки</p>
+                    <p class="main__text-subheader">До конца акции:</p>
+                    <div class="main__text-wrapper">
+                        <div class="main__wrapper-item">
+                            <p class="main__text-box"><span class="main__big-num">3</span> дня</p>
+                        </div>
+                        <div class="main__wrapper-item">
+                            <p class="main__text-box"><span class="main__big-num">8</span> часов</p>
+                        </div>
+
+                        <div class="main__wrapper-item">
+                        <p class="main__text-box"><span class="main__big-num">43</span> минуты</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__grid-item">
+                    <p class="main__two-text"><span>Книга</span> – лучший подарок</p>
+                </div>
+                <div class="main__grid-item">
+                    <p class="main__three-text">Время скидок!</p>
+                    <div class="main__three-bg">
+                        <p class="main__three-texxt">-25%</p>
+                    </div>
+                </div>
+
+                <div class="main__grid-item">
+                    <div class="main__four-bg">
+                        <p class="main__four-text">Вторая пара кроссовок <br>
+                        <span class="main__four-textx">в подарок!</span></p>
+                    </div>
+                </div>
+
+                <div class="main__grid-item">
+                    <p class="main__five-text">Идеи новогодних подарков</p>
+                </div>
+
+                <div class="main__grid-item">
+                    <div class="main__six-wrapper">
+                        <p class="main__six-text">-40%</p>
+                    </div>
+                </div>
+
+                <div class="main__grid-item main__seven-container">
+                    <div class="main__seven-item">
+                        <p class="main__seven-text">Выгодно в декабре!</p>
+                    </div>
+                    
+                    <div class="main__seven-wrapper">
+                        <p class="main__seven-wtext">-15%</p>
+                    </div>
+                </div>
+                <div class="main__grid-item">8</div>
+                <div class="main__grid-item">9</div>
+                <div class="main__grid-item">10</div>
+                <div class="main__grid-item">11</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
